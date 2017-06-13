@@ -1,0 +1,1524 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta http-equiv="REFRESH" content="60">
+<title>FinalModel</title>
+<style type="text/css">
+body {
+ background: #f0f0f5;
+}
+p,span {
+ font-family: monospace;
+}
+p {
+ margin-right: 6em;
+}
+p.phase {
+ font-weight: bold;
+ margin-bottom: 0;
+}
+p.result, p.WARNING, p.error {
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 5em;
+}
+span.status {
+ float: right;
+ margin-top: -1em;
+}
+.passed, .completed {
+ color: #00D000;
+}
+.WARNING, .warning {
+ color: #555500;
+}
+.FAILED, .error {
+ color: #DD0000;
+}
+</style>
+</head>
+<body>
+<h1 class="experiment">/Users/a0m0195/FinalModel</h1>
+<h2 class="hostname">Training FinalModel on personal.local</h2>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 16:05)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 16:05)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='warning'>WARNING: The phonelist (/Users/a0m0195/FinalModel/etc/FinalModel.phone) does not define the phone SIL (required!)</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<p class='warning'>WARNING: This phone (SIL) occurs in the dictionary (/Users/a0m0195/FinalModel/etc/FinalModel.dic), but not in the phonelist (/Users/a0m0195/FinalModel/etc/FinalModel.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0605138888888889</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 16:06)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 16:06)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0605138888888889</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-12 16:06)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-12 16:06)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-12 16:06)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-12 16:06)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-12 16:06)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.736515951343</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -159.868762910259</p>
+<p class='result'>Convergence Ratio = 1.86775304108363</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.78664218499</p>
+<p class='result'>Convergence Ratio = 3.08212072526933</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.090090939076</p>
+<p class='result'>Convergence Ratio = 1.69655124591446</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.585638222683</p>
+<p class='result'>Convergence Ratio = 0.504452716393047</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.400744475333</p>
+<p class='result'>Convergence Ratio = 0.184893747349633</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.290863685624</p>
+<p class='result'>Convergence Ratio = 0.10988078970891</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.226028365453</p>
+<p class='result'>Training completed after 8 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-12 16:06)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-12 16:06)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-12 16:06)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 16:07)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 16:07)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.0605138888888889</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-12 16:07)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-12 16:07)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-12 16:07)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-12 16:07)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-12 16:07)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.736515951343</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -159.868762910259</p>
+<p class='result'>Convergence Ratio = 1.86775304108363</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.78664218499</p>
+<p class='result'>Convergence Ratio = 3.08212072526933</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.090090939076</p>
+<p class='result'>Convergence Ratio = 1.69655124591446</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.585638222683</p>
+<p class='result'>Convergence Ratio = 0.504452716393047</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.400744475333</p>
+<p class='result'>Convergence Ratio = 0.184893747349633</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.290863685624</p>
+<p class='result'>Convergence Ratio = 0.10988078970891</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.226028365453</p>
+<p class='result'>Training completed after 8 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-12 16:07)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-12 16:07)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-12 16:07)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 17:09)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 17:09)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.12025</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-12 17:09)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-12 17:09)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-12 17:09)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-12 17:09)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-12 17:09)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.378285978286</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -159.58048048048</p>
+<p class='result'>Convergence Ratio = 1.79780549780551</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.719912219912</p>
+<p class='result'>Convergence Ratio = 2.86056826056776</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.09909193035</p>
+<p class='result'>Convergence Ratio = 1.62082028956189</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.653833551769</p>
+<p class='result'>Convergence Ratio = 0.445258378580661</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.488976783374</p>
+<p class='result'>Convergence Ratio = 0.164856768395111</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.407086687886</p>
+<p class='result'>Training completed after 7 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-12 17:09)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-12 17:09)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-12 17:09)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 19:43)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 19:43)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.207294444444444</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 81: e1 vs f1</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 82: e2 vs f2</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 83: e3 vs f3</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 84: e4 vs f4</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 85: e5 vs f5</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 86: e6 vs f6</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 87: e7 vs f7</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 88: e8 vs f8</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 89: e9 vs f9</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 90: e10 vs f10</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 91: e11 vs f11</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 92: e12 vs f12</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 93: e13 vs f13</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 94: e14 vs f14</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 95: e15 vs f15</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 96: e16 vs f16</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 97: e17 vs f17</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 98: e18 vs f18</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 99: e19 vs f19</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 100: e20 vs f20</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 101: f1 vs g1</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 102: f2 vs g2</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 103: f3 vs g3</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 104: f4 vs g4</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 105: f5 vs g5</p>
+<p class='warning'>WARNING: Utterance ID mismatch on line 106: f6 vs g6</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 19:44)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 19:44)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.171291666666667</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-12 19:44)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-12 19:44)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-12 19:44)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-12 19:44)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-12 19:44)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.144587691559</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -159.383848212114</p>
+<p class='result'>Convergence Ratio = 1.76073947944516</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.592376806376</p>
+<p class='result'>Convergence Ratio = 2.79147140573789</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.043451221708</p>
+<p class='result'>Convergence Ratio = 1.54892558466838</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.56394939692</p>
+<p class='result'>Convergence Ratio = 0.479501824788059</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.357412892984</p>
+<p class='result'>Convergence Ratio = 0.206536503936036</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.245127080503</p>
+<p class='result'>Convergence Ratio = 0.112285812480593</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -154.183542542919</p>
+<p class='result'>Training completed after 8 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-12 19:44)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-12 19:44)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-12 19:44)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 21:24)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 21:24)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<p class='warning'>WARNING: Error in '/Users/a0m0195/FinalModel/etc/train.fileids'. Can not parse the line ''
+</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.213566666666667</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-12 21:24)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-12 21:24)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.213566666666667</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-12 21:24)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-12 21:24)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-12 21:24)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-12 21:24)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-12 21:24)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.890120181052</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -160.202252744394</p>
+<p class='result'>Convergence Ratio = 1.68786743665785</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -157.62915561105</p>
+<p class='result'>Convergence Ratio = 2.57309713334359</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.201750478237</p>
+<p class='result'>Convergence Ratio = 1.42740513281308</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.730981892508</p>
+<p class='result'>Convergence Ratio = 0.470768585728933</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.547417520505</p>
+<p class='result'>Convergence Ratio = 0.183564372002763</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.462645108881</p>
+<p class='result'>Training completed after 7 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-12 21:24)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-12 21:24)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-12 21:24)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-13 09:51)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-13 09:51)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.252694444444444</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-13 09:51)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-13 09:51)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-13 09:51)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-13 09:51)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-13 09:51)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.873035066505</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -160.220072551391</p>
+<p class='result'>Convergence Ratio = 1.65296251511444</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -157.679784544355</p>
+<p class='result'>Convergence Ratio = 2.54028800703574</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.300769843377</p>
+<p class='result'>Convergence Ratio = 1.3790147009783</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.854902221042</p>
+<p class='result'>Convergence Ratio = 0.445867622334617</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.68821343244</p>
+<p class='result'>Convergence Ratio = 0.166688788602414</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.602822759048</p>
+<p class='result'>Training completed after 7 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-13 09:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-13 09:51)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-13 09:51)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-13 10:44)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-13 10:44)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.353233333333333</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-13 10:44)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-13 10:44)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-13 10:44)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-13 10:44)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-13 10:44)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-13 10:44)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-13 10:44)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-13 10:44)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -162.006778648045</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -160.315340819729</p>
+<p class='result'>Convergence Ratio = 1.69143782831617</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -157.782863074455</p>
+<p class='result'>Convergence Ratio = 2.53247774527395</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.381731726197</p>
+<p class='result'>Convergence Ratio = 1.40113134825796</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.935135305919</p>
+<p class='result'>Convergence Ratio = 0.446596420277643</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.747776496422</p>
+<p class='result'>Convergence Ratio = 0.187358809497141</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.666735122668</p>
+<p class='result'>Training completed after 7 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-13 10:45)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-13 10:45)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-13 10:45)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-13 10:45)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-13 10:45)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-13 10:45)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-13 10:45)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-13 10:45)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.353233333333333</p>
+<p class='error'>ERROR: Not enough data for the training, we can only train CI models (set CFG_CD_TRAIN to "no")</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-13 10:46)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-13 10:46)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.353233333333333</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-13 10:46)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-13 10:46)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-13 10:46)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-13 10:46)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-13 10:46)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -162.006778648045</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -160.315340819729</p>
+<p class='result'>Convergence Ratio = 1.69143782831617</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -157.782863074455</p>
+<p class='result'>Convergence Ratio = 2.53247774527395</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.381731726197</p>
+<p class='result'>Convergence Ratio = 1.40113134825796</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.935135305919</p>
+<p class='result'>Convergence Ratio = 0.446596420277643</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.747776496422</p>
+<p class='result'>Convergence Ratio = 0.187358809497141</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.666735122668</p>
+<p class='result'>Training completed after 7 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-13 10:46)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-13 10:46)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-13 10:46)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-13 11:51)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-13 11:51)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.414797222222222</p>
+<p class='error'>ERROR: Not enough data for the training, we can only train CI models (set CFG_CD_TRAIN to "no")</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2017-06-13 11:51)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///Users/a0m0195/FinalModel/logdir/000.comp_feat/FinalModel.test-1-1.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2017-06-13 11:51)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 25 words using 29 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.414797222222222</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 22</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2017-06-13 11:51)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2017-06-13 11:51)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2017-06-13 11:51)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2017-06-13 11:51)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2017-06-13 11:51)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -161.721389969664</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -160.027657422971</p>
+<p class='result'>Convergence Ratio = 1.69373254669293</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3-1.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -157.564740468904</p>
+<p class='result'>Convergence Ratio = 2.4629169540672</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -156.169327462777</p>
+<p class='result'>Convergence Ratio = 1.39541300612714</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.706382549659</p>
+<p class='result'>Convergence Ratio = 0.46294491311815</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.479313010453</p>
+<p class='result'>Convergence Ratio = 0.227069539206269</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.370752529157</p>
+<p class='result'>Convergence Ratio = 0.10856048129628</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 2 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///Users/a0m0195/FinalModel/logdir/20.ci_hmm/FinalModel.1.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -155.322959029342</p>
+<p class='result'>Training completed after 8 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2017-06-13 11:51)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2017-06-13 11:51)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2017-06-13 11:51)</h3>
+<p class='result'>Decoding 1 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///Users/a0m0195/FinalModel/logdir/decode/FinalModel-1-1.log">Log File</a></p><p class='error'>ERROR: FATAL: "batch.c", line 822: PocketSphinx decoder init failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<p class='error'>ERROR: Failed to start pocketsphinx_batch</p>
+<p>        Aligning results to find error rate</p>

@@ -1,0 +1,287 @@
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-alpha			0.97		9.700000e-01
+-argfile				
+-blocksize		2048		2048
+-build_outdirs		yes		yes
+-c					/Users/a0m0195/FinalModel/etc/train.fileids
+-cep2spec		no		no
+-di					/Users/a0m0195/FinalModel/wav
+-dither			no		no
+-do					/Users/a0m0195/FinalModel/feat
+-doublebw		no		no
+-ei					wav
+-eo					mfc
+-example		no		no
+-frate			100		100
+-help			no		no
+-i					
+-input_endian		little		little
+-lifter			0		22
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-mach_endian		little		little
+-mswav			no		yes
+-ncep			13		13
+-nchans			1		1
+-nfft			512		512
+-nfilt			40		25
+-nist			no		no
+-npart			0		1
+-nskip			0		0
+-o					
+-ofmt			sphinx		sphinx
+-part			0		1
+-raw			no		no
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-runlen			-1		-1
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-smoothspec		no		no
+-spec2cep		no		no
+-sph2pipe		no		no
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+00
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-whichchan		0		0
+-wlen			0.025625	2.562500e-02
+
+INFO: sphinx_fe.c(967): Processing all remaining utterances at position 0
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a1.wav to /Users/a0m0195/FinalModel/feat/a1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a2.wav to /Users/a0m0195/FinalModel/feat/a2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a3.wav to /Users/a0m0195/FinalModel/feat/a3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a4.wav to /Users/a0m0195/FinalModel/feat/a4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a5.wav to /Users/a0m0195/FinalModel/feat/a5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a6.wav to /Users/a0m0195/FinalModel/feat/a6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a7.wav to /Users/a0m0195/FinalModel/feat/a7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a8.wav to /Users/a0m0195/FinalModel/feat/a8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a9.wav to /Users/a0m0195/FinalModel/feat/a9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a10.wav to /Users/a0m0195/FinalModel/feat/a10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a11.wav to /Users/a0m0195/FinalModel/feat/a11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a12.wav to /Users/a0m0195/FinalModel/feat/a12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a13.wav to /Users/a0m0195/FinalModel/feat/a13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a14.wav to /Users/a0m0195/FinalModel/feat/a14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a15.wav to /Users/a0m0195/FinalModel/feat/a15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a16.wav to /Users/a0m0195/FinalModel/feat/a16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a17.wav to /Users/a0m0195/FinalModel/feat/a17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a18.wav to /Users/a0m0195/FinalModel/feat/a18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a19.wav to /Users/a0m0195/FinalModel/feat/a19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/a20.wav to /Users/a0m0195/FinalModel/feat/a20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b1.wav to /Users/a0m0195/FinalModel/feat/b1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b2.wav to /Users/a0m0195/FinalModel/feat/b2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b3.wav to /Users/a0m0195/FinalModel/feat/b3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b4.wav to /Users/a0m0195/FinalModel/feat/b4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b5.wav to /Users/a0m0195/FinalModel/feat/b5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b6.wav to /Users/a0m0195/FinalModel/feat/b6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b7.wav to /Users/a0m0195/FinalModel/feat/b7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b8.wav to /Users/a0m0195/FinalModel/feat/b8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b9.wav to /Users/a0m0195/FinalModel/feat/b9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b10.wav to /Users/a0m0195/FinalModel/feat/b10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b11.wav to /Users/a0m0195/FinalModel/feat/b11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b12.wav to /Users/a0m0195/FinalModel/feat/b12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b13.wav to /Users/a0m0195/FinalModel/feat/b13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b14.wav to /Users/a0m0195/FinalModel/feat/b14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b15.wav to /Users/a0m0195/FinalModel/feat/b15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b16.wav to /Users/a0m0195/FinalModel/feat/b16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b17.wav to /Users/a0m0195/FinalModel/feat/b17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b18.wav to /Users/a0m0195/FinalModel/feat/b18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b19.wav to /Users/a0m0195/FinalModel/feat/b19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/b20.wav to /Users/a0m0195/FinalModel/feat/b20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c1.wav to /Users/a0m0195/FinalModel/feat/c1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c2.wav to /Users/a0m0195/FinalModel/feat/c2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c3.wav to /Users/a0m0195/FinalModel/feat/c3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c4.wav to /Users/a0m0195/FinalModel/feat/c4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c5.wav to /Users/a0m0195/FinalModel/feat/c5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c6.wav to /Users/a0m0195/FinalModel/feat/c6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c7.wav to /Users/a0m0195/FinalModel/feat/c7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c8.wav to /Users/a0m0195/FinalModel/feat/c8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c9.wav to /Users/a0m0195/FinalModel/feat/c9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c10.wav to /Users/a0m0195/FinalModel/feat/c10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c11.wav to /Users/a0m0195/FinalModel/feat/c11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c12.wav to /Users/a0m0195/FinalModel/feat/c12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c13.wav to /Users/a0m0195/FinalModel/feat/c13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c14.wav to /Users/a0m0195/FinalModel/feat/c14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c15.wav to /Users/a0m0195/FinalModel/feat/c15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c16.wav to /Users/a0m0195/FinalModel/feat/c16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c17.wav to /Users/a0m0195/FinalModel/feat/c17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c18.wav to /Users/a0m0195/FinalModel/feat/c18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c19.wav to /Users/a0m0195/FinalModel/feat/c19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/c20.wav to /Users/a0m0195/FinalModel/feat/c20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d1.wav to /Users/a0m0195/FinalModel/feat/d1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d2.wav to /Users/a0m0195/FinalModel/feat/d2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d3.wav to /Users/a0m0195/FinalModel/feat/d3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d4.wav to /Users/a0m0195/FinalModel/feat/d4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d5.wav to /Users/a0m0195/FinalModel/feat/d5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d6.wav to /Users/a0m0195/FinalModel/feat/d6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d7.wav to /Users/a0m0195/FinalModel/feat/d7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d8.wav to /Users/a0m0195/FinalModel/feat/d8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d9.wav to /Users/a0m0195/FinalModel/feat/d9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d10.wav to /Users/a0m0195/FinalModel/feat/d10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d11.wav to /Users/a0m0195/FinalModel/feat/d11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d12.wav to /Users/a0m0195/FinalModel/feat/d12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d13.wav to /Users/a0m0195/FinalModel/feat/d13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d14.wav to /Users/a0m0195/FinalModel/feat/d14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d15.wav to /Users/a0m0195/FinalModel/feat/d15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d16.wav to /Users/a0m0195/FinalModel/feat/d16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d17.wav to /Users/a0m0195/FinalModel/feat/d17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d18.wav to /Users/a0m0195/FinalModel/feat/d18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d19.wav to /Users/a0m0195/FinalModel/feat/d19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/d20.wav to /Users/a0m0195/FinalModel/feat/d20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f1.wav to /Users/a0m0195/FinalModel/feat/f1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f2.wav to /Users/a0m0195/FinalModel/feat/f2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f3.wav to /Users/a0m0195/FinalModel/feat/f3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f4.wav to /Users/a0m0195/FinalModel/feat/f4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f5.wav to /Users/a0m0195/FinalModel/feat/f5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f6.wav to /Users/a0m0195/FinalModel/feat/f6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f7.wav to /Users/a0m0195/FinalModel/feat/f7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f8.wav to /Users/a0m0195/FinalModel/feat/f8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f9.wav to /Users/a0m0195/FinalModel/feat/f9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f10.wav to /Users/a0m0195/FinalModel/feat/f10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f11.wav to /Users/a0m0195/FinalModel/feat/f11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f12.wav to /Users/a0m0195/FinalModel/feat/f12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f13.wav to /Users/a0m0195/FinalModel/feat/f13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f14.wav to /Users/a0m0195/FinalModel/feat/f14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f15.wav to /Users/a0m0195/FinalModel/feat/f15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f16.wav to /Users/a0m0195/FinalModel/feat/f16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f17.wav to /Users/a0m0195/FinalModel/feat/f17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f18.wav to /Users/a0m0195/FinalModel/feat/f18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f19.wav to /Users/a0m0195/FinalModel/feat/f19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/f20.wav to /Users/a0m0195/FinalModel/feat/f20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g1.wav to /Users/a0m0195/FinalModel/feat/g1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g2.wav to /Users/a0m0195/FinalModel/feat/g2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g3.wav to /Users/a0m0195/FinalModel/feat/g3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g4.wav to /Users/a0m0195/FinalModel/feat/g4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g5.wav to /Users/a0m0195/FinalModel/feat/g5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g6.wav to /Users/a0m0195/FinalModel/feat/g6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/g7.wav to /Users/a0m0195/FinalModel/feat/g7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h1.wav to /Users/a0m0195/FinalModel/feat/h1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h2.wav to /Users/a0m0195/FinalModel/feat/h2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h3.wav to /Users/a0m0195/FinalModel/feat/h3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h4.wav to /Users/a0m0195/FinalModel/feat/h4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h5.wav to /Users/a0m0195/FinalModel/feat/h5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h6.wav to /Users/a0m0195/FinalModel/feat/h6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h7.wav to /Users/a0m0195/FinalModel/feat/h7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h8.wav to /Users/a0m0195/FinalModel/feat/h8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h9.wav to /Users/a0m0195/FinalModel/feat/h9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h10.wav to /Users/a0m0195/FinalModel/feat/h10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h11.wav to /Users/a0m0195/FinalModel/feat/h11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h12.wav to /Users/a0m0195/FinalModel/feat/h12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h13.wav to /Users/a0m0195/FinalModel/feat/h13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h14.wav to /Users/a0m0195/FinalModel/feat/h14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h15.wav to /Users/a0m0195/FinalModel/feat/h15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h16.wav to /Users/a0m0195/FinalModel/feat/h16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h17.wav to /Users/a0m0195/FinalModel/feat/h17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h18.wav to /Users/a0m0195/FinalModel/feat/h18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h19.wav to /Users/a0m0195/FinalModel/feat/h19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/h20.wav to /Users/a0m0195/FinalModel/feat/h20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i1.wav to /Users/a0m0195/FinalModel/feat/i1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i2.wav to /Users/a0m0195/FinalModel/feat/i2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i3.wav to /Users/a0m0195/FinalModel/feat/i3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i4.wav to /Users/a0m0195/FinalModel/feat/i4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i5.wav to /Users/a0m0195/FinalModel/feat/i5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i6.wav to /Users/a0m0195/FinalModel/feat/i6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i7.wav to /Users/a0m0195/FinalModel/feat/i7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i8.wav to /Users/a0m0195/FinalModel/feat/i8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i9.wav to /Users/a0m0195/FinalModel/feat/i9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i10.wav to /Users/a0m0195/FinalModel/feat/i10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i11.wav to /Users/a0m0195/FinalModel/feat/i11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i12.wav to /Users/a0m0195/FinalModel/feat/i12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i13.wav to /Users/a0m0195/FinalModel/feat/i13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i14.wav to /Users/a0m0195/FinalModel/feat/i14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i15.wav to /Users/a0m0195/FinalModel/feat/i15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i16.wav to /Users/a0m0195/FinalModel/feat/i16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i17.wav to /Users/a0m0195/FinalModel/feat/i17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i18.wav to /Users/a0m0195/FinalModel/feat/i18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i19.wav to /Users/a0m0195/FinalModel/feat/i19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/i20.wav to /Users/a0m0195/FinalModel/feat/i20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j1.wav to /Users/a0m0195/FinalModel/feat/j1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j2.wav to /Users/a0m0195/FinalModel/feat/j2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j3.wav to /Users/a0m0195/FinalModel/feat/j3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j4.wav to /Users/a0m0195/FinalModel/feat/j4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j5.wav to /Users/a0m0195/FinalModel/feat/j5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j6.wav to /Users/a0m0195/FinalModel/feat/j6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j7.wav to /Users/a0m0195/FinalModel/feat/j7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j8.wav to /Users/a0m0195/FinalModel/feat/j8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j9.wav to /Users/a0m0195/FinalModel/feat/j9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j10.wav to /Users/a0m0195/FinalModel/feat/j10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j11.wav to /Users/a0m0195/FinalModel/feat/j11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j12.wav to /Users/a0m0195/FinalModel/feat/j12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j13.wav to /Users/a0m0195/FinalModel/feat/j13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j14.wav to /Users/a0m0195/FinalModel/feat/j14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j15.wav to /Users/a0m0195/FinalModel/feat/j15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j16.wav to /Users/a0m0195/FinalModel/feat/j16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j17.wav to /Users/a0m0195/FinalModel/feat/j17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j18.wav to /Users/a0m0195/FinalModel/feat/j18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j19.wav to /Users/a0m0195/FinalModel/feat/j19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/j20.wav to /Users/a0m0195/FinalModel/feat/j20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k1.wav to /Users/a0m0195/FinalModel/feat/k1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k2.wav to /Users/a0m0195/FinalModel/feat/k2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k3.wav to /Users/a0m0195/FinalModel/feat/k3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k4.wav to /Users/a0m0195/FinalModel/feat/k4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k5.wav to /Users/a0m0195/FinalModel/feat/k5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k6.wav to /Users/a0m0195/FinalModel/feat/k6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k7.wav to /Users/a0m0195/FinalModel/feat/k7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k8.wav to /Users/a0m0195/FinalModel/feat/k8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k9.wav to /Users/a0m0195/FinalModel/feat/k9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k10.wav to /Users/a0m0195/FinalModel/feat/k10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k11.wav to /Users/a0m0195/FinalModel/feat/k11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k12.wav to /Users/a0m0195/FinalModel/feat/k12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k13.wav to /Users/a0m0195/FinalModel/feat/k13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k14.wav to /Users/a0m0195/FinalModel/feat/k14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k15.wav to /Users/a0m0195/FinalModel/feat/k15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k16.wav to /Users/a0m0195/FinalModel/feat/k16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k17.wav to /Users/a0m0195/FinalModel/feat/k17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k18.wav to /Users/a0m0195/FinalModel/feat/k18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k19.wav to /Users/a0m0195/FinalModel/feat/k19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k20.wav to /Users/a0m0195/FinalModel/feat/k20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k21.wav to /Users/a0m0195/FinalModel/feat/k21.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k22.wav to /Users/a0m0195/FinalModel/feat/k22.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k23.wav to /Users/a0m0195/FinalModel/feat/k23.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k24.wav to /Users/a0m0195/FinalModel/feat/k24.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k25.wav to /Users/a0m0195/FinalModel/feat/k25.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k26.wav to /Users/a0m0195/FinalModel/feat/k26.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k27.wav to /Users/a0m0195/FinalModel/feat/k27.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k28.wav to /Users/a0m0195/FinalModel/feat/k28.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k29.wav to /Users/a0m0195/FinalModel/feat/k29.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/k30.wav to /Users/a0m0195/FinalModel/feat/k30.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l1.wav to /Users/a0m0195/FinalModel/feat/l1.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l2.wav to /Users/a0m0195/FinalModel/feat/l2.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l3.wav to /Users/a0m0195/FinalModel/feat/l3.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l4.wav to /Users/a0m0195/FinalModel/feat/l4.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l5.wav to /Users/a0m0195/FinalModel/feat/l5.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l6.wav to /Users/a0m0195/FinalModel/feat/l6.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l7.wav to /Users/a0m0195/FinalModel/feat/l7.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l8.wav to /Users/a0m0195/FinalModel/feat/l8.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l9.wav to /Users/a0m0195/FinalModel/feat/l9.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l10.wav to /Users/a0m0195/FinalModel/feat/l10.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l11.wav to /Users/a0m0195/FinalModel/feat/l11.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l12.wav to /Users/a0m0195/FinalModel/feat/l12.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l13.wav to /Users/a0m0195/FinalModel/feat/l13.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l14.wav to /Users/a0m0195/FinalModel/feat/l14.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l15.wav to /Users/a0m0195/FinalModel/feat/l15.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l16.wav to /Users/a0m0195/FinalModel/feat/l16.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l17.wav to /Users/a0m0195/FinalModel/feat/l17.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l18.wav to /Users/a0m0195/FinalModel/feat/l18.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l19.wav to /Users/a0m0195/FinalModel/feat/l19.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l20.wav to /Users/a0m0195/FinalModel/feat/l20.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l21.wav to /Users/a0m0195/FinalModel/feat/l21.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l22.wav to /Users/a0m0195/FinalModel/feat/l22.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l23.wav to /Users/a0m0195/FinalModel/feat/l23.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l24.wav to /Users/a0m0195/FinalModel/feat/l24.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l25.wav to /Users/a0m0195/FinalModel/feat/l25.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l26.wav to /Users/a0m0195/FinalModel/feat/l26.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l27.wav to /Users/a0m0195/FinalModel/feat/l27.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l28.wav to /Users/a0m0195/FinalModel/feat/l28.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l29.wav to /Users/a0m0195/FinalModel/feat/l29.mfc
+INFO: sphinx_fe.c(787): Converting /Users/a0m0195/FinalModel/wav/l30.wav to /Users/a0m0195/FinalModel/feat/l30.mfc
+Tue Jun 13 11:51:36 2017

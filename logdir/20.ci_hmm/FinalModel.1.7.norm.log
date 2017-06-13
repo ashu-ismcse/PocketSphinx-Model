@@ -1,0 +1,34 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/Users/a0m0195/FinalModel/bwaccumdir/FinalModel_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/means
+-mixwfn			/Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/transition_matrices
+-varfn			/Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from /Users/a0m0195/FinalModel/bwaccumdir/FinalModel_buff_1
+INFO: s3mixw_io.c(117): Read /Users/a0m0195/FinalModel/bwaccumdir/FinalModel_buff_1/mixw_counts [87x1x1 array]
+INFO: s3tmat_io.c(118): Read /Users/a0m0195/FinalModel/bwaccumdir/FinalModel_buff_1/tmat_counts [29x3x4 array]
+INFO: s3gau_io.c(386): Read /Users/a0m0195/FinalModel/bwaccumdir/FinalModel_buff_1/gauden_counts with means with vars (2pass) [87x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 87, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/mixture_weights [87x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/transition_matrices [29x3x4 array]
+INFO: s3gau_io.c(228): Wrote /Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/means [87x1x1 array]
+INFO: s3gau_io.c(228): Wrote /Users/a0m0195/FinalModel/model_parameters/FinalModel.ci_cont/variances [87x1x1 array]
+Tue Jun 13 11:51:47 2017
+Current Overall Likelihood Per Frame = -155.370752529157
+Convergence ratio = 0.10856048129628
