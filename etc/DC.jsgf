@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar DCVoice;
+
+public <DCVoice> = <number> | <number> <number> <number> | <else> ;
+<number> = (ONE | TWO | THREE | FOUR | FIVE | SIX | SEVEN | EIGHT | NINE | ZERO) ;
+<else> = ( REPEAT | SUBCENTER | SUMMARY | READY | NO | YES | START) ;
