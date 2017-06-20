@@ -1,4 +1,4 @@
-#/etc
+# /etc
 
 ## FinalModel.dic
 ``` This is the dictionary used in model. Contains words followed by phonems from which it is made.```
@@ -9,7 +9,7 @@
 ## FinalModel.phone
 ``` This contains every phone used in dictionary words```
 
-##FinalModel.lm.bin
+## FinalModel.lm.bin
 ``` This is the language model in Binary format```
 
 ## train.transcription 
